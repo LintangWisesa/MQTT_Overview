@@ -10,6 +10,8 @@ No.|Material|Link
 2.|Online broker, local subscriber & publisher|_**[coming soon]()**_
 3.|Create MQTT broker using Mosca.js|_**[coming soon]()**_
 4.|Create MQTT subscriber & publisher using MQTT.js|_**[coming soon]()**_
+5.|Create MQTT broker using HBMQTT|_**[coming soon]()**_
+6.|Create MQTT subscriber & publisher using Paho|_**[coming soon]()**_
 
 #
 
