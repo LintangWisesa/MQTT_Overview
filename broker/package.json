@@ -1,0 +1,20 @@
+{
+  "name": "lintang_mqtt",
+  "version": "1.0.0",
+  "description": "mqtt overview",
+  "main": "brokerApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "iot",
+    "nodejs"
+  ],
+  "author": "lintangwisesa",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0"
+  }
+}
