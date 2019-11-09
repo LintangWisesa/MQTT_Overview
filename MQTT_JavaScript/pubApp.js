@@ -1,4 +1,4 @@
-var mqtt = require('mqtt');
+var mqtt = require('mqtt');     // npm install mqtt
 var client  = mqtt.connect('mqtt://localhost');
 
 var topic = 'LINTANGtopic123'
