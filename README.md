@@ -1,8 +1,10 @@
 ![simplinnovation](https://4.bp.blogspot.com/-f7YxPyqHAzY/WJ6VnkvE0SI/AAAAAAAADTQ/0tDQPTrVrtMAFT-q-1-3ktUQT5Il9FGdQCLcB/s350/simpLINnovation1a.png)
 
-## __*MQTT Overview*__
+# __*MQTT Overview*__
 
-__MQTT__ (_MQ Telemetry Transport_) is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal of the emerging IoT (*Internet of Things*) world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.
+__MQTT__ (_Message Queuing Telemetry Transport_) is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal of the emerging IoT (*Internet of Things*) world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.
+
+#
 
 No.|Material|Link
 -----|-----|-----
