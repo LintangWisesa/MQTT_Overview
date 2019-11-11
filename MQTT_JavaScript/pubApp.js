@@ -7,6 +7,6 @@ var message = 'MQTT message: Hello world!'
 client.on('connect', function () {
     setInterval(function() {
         client.publish(topic, message);
-        console.log('Message sent!');
+        console.log('Message sent!', message);
     }, 2000);
 });
