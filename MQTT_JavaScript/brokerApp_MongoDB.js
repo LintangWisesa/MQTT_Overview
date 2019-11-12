@@ -1,34 +1,26 @@
 var mosca = require('mosca');   // npm install mosca
-var mysql = require('mysql')    // npm i mysql
+var mongo = require('mongodb')  // npm i mongodb
+var mongc = mongo.MongoClient
+var url = 'mongodb://lintang:1234@localhost:27017/mqtt_lintang'
+
+var server = new mosca.Server(settings);
 var settings = {
     port:1883
 }
-
-var server = new mosca.Server(settings);
-var db = mysql.createConnection({
-    host: 'localhost',
-    user: 'lintang',
-    password: '12345',
-    database: 'mqtt_lintang'
-})
-db.connect(()=>{
-    console.log('Database terhubung!')
-})
 
 server.on('published', function(packet, client) {
     // console.log('Published', packet.payload);
     console.log('Published:', packet.payload.toString());
     if(packet.payload.toString().slice(0,1) != '{' && packet.payload.toString().slice(0, 4) != 'mqtt'){
-        var dbStat = 'insert into mqtt set ?'
-        var data = {
-            message: packet.payload.toString()
-        }
-        db.query(dbStat, data, (error, output) => {
-            if(error){
-                console.log(error)
-            } else {
-                console.log(output)
-            }
+        mongc.connect(url, (error, client)=>{
+            // console.log('Terhubung db!')
+            var koleksi = client.db('mqtt_lintang').collection('mqtt')
+            koleksi.insertOne({
+                message: packet.payload.toString()
+            }, () => {
+                console.log('Data terkirim!')
+                client.close()
+            })
         })
     }
 });
