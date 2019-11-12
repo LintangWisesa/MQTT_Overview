@@ -6,7 +6,7 @@ __MQTT__ (_Message Queuing Telemetry Transport_) is a publish/subscribe, extreme
 
 #
 
-No.|Material|Link
+No.|Material|Tutorial
 -----|-----|-----
 1.|Local broker, subscriber & publisher|_**[coming soon]()**_
 2.|Online broker, local subscriber & publisher|_**[coming soon]()**_
@@ -14,6 +14,7 @@ No.|Material|Link
 4.|Create MQTT subscriber & publisher using MQTT.js|_**[coming soon]()**_
 5.|Create MQTT broker using HBMQTT|_**[coming soon]()**_
 6.|Create MQTT subscriber & publisher using Paho|_**[coming soon]()**_
+7.|Connect Paho subscriber to MySQL database|_**[coming soon]()**_
 
 #
 
@@ -21,7 +22,7 @@ No.|Material|Link
 
 [Facebook](https://www.facebook.com/lintangbagus) | 
 [Twitter](https://twitter.com/Lintang_Wisesa) |
-[Google+](https://plus.google.com/u/0/+LintangWisesa1) |
+[LinkedIn](https://www.linkedin.com/in/lintangwisesa/) |
 [Youtube](https://www.youtube.com/user/lintangbagus) | 
 :octocat: [GitHub](https://github.com/LintangWisesa) |
 [Hackster](https://www.hackster.io/lintangwisesa)
