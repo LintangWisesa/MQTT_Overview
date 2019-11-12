@@ -14,7 +14,8 @@ No.|Material|Tutorial
 4.|Create MQTT subscriber & publisher using MQTT.js|_**[coming soon]()**_
 5.|Create MQTT broker using HBMQTT|_**[coming soon]()**_
 6.|Create MQTT subscriber & publisher using Paho|_**[coming soon]()**_
-7.|Connect Paho subscriber to MySQL database|_**[coming soon]()**_
+7.|Connect HBMQTT broker to MySQL database|_**[coming soon]()**_
+8.|Connect Paho subscriber to MySQL database|_**[coming soon]()**_
 
 #
 
