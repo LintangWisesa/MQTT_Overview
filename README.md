@@ -15,6 +15,7 @@ __MQTT__ (_Message Queuing Telemetry Transport_) is a publish/subscribe, extreme
     3.|Create MQTT subscriber & publisher using Paho|_**[coming soon]()**_
     4.|Connect HBMQTT broker to MySQL database|_**[coming soon]()**_
     5.|Connect Paho subscriber to MySQL database|_**[coming soon]()**_
+    6.|Connect Paho subscriber to MongoDB database|_**[coming soon]()**_
 
 #
 
