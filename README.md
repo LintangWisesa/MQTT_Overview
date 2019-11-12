@@ -6,16 +6,27 @@ __MQTT__ (_Message Queuing Telemetry Transport_) is a publish/subscribe, extreme
 
 #
 
-No.|Material|Tutorial
------|-----|-----
-1.|Local broker, subscriber & publisher|_**[coming soon]()**_
-2.|Online broker, local subscriber & publisher|_**[coming soon]()**_
-3.|Create MQTT broker using Mosca.js|_**[coming soon]()**_
-4.|Create MQTT subscriber & publisher using MQTT.js|_**[coming soon]()**_
-5.|Create MQTT broker using HBMQTT|_**[coming soon]()**_
-6.|Create MQTT subscriber & publisher using Paho|_**[coming soon]()**_
-7.|Connect HBMQTT broker to MySQL database|_**[coming soon]()**_
-8.|Connect Paho subscriber to MySQL database|_**[coming soon]()**_
+- ### __*<img src='http://icons.iconarchive.com/icons/cornmanthe3rd/plex/32/Other-python-icon.png' alt='linpy' style='height:20px; width:20px'/> Python based*__
+
+    No.|Material|Tutorial
+    -----|-----|-----
+    1.|Local broker, subscriber & publisher|_**[coming soon]()**_
+    2.|Create MQTT broker using HBMQTT|_**[coming soon]()**_
+    3.|Create MQTT subscriber & publisher using Paho|_**[coming soon]()**_
+    4.|Connect HBMQTT broker to MySQL database|_**[coming soon]()**_
+    5.|Connect Paho subscriber to MySQL database|_**[coming soon]()**_
+
+#
+
+- ### __*<img src='https://img.icons8.com/color/48/000000/javascript.png' alt='linpy' style='height:20px; width:20px'/> JavaScript based*__
+
+    No.|Material|Tutorial
+    -----|-----|-----
+    1.|Local broker, subscriber & publisher|_**[coming soon]()**_
+    2.|Online broker, local subscriber & publisher|_**[coming soon]()**_
+    3.|Create MQTT broker using Mosca.js|_**[coming soon]()**_
+    4.|Create MQTT subscriber & publisher using MQTT.js|_**[coming soon]()**_
+    5.|Connect Mosca broker to MySQL database|_**[coming soon]()**_
 
 #
 
