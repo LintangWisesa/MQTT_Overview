@@ -13,7 +13,7 @@ config = {
     'listeners': {
         'default': {
             'type': 'tcp',
-            'bind': '0.0.0.0:1883',
+            'bind': '0.0.0.0:1888',
         },
         'ws-mqtt': {
             'bind': '127.0.0.1:8080',

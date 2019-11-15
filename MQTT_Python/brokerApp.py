@@ -11,22 +11,22 @@ config = {
     'listeners': {
         'default': {
             'type': 'tcp',
-            'bind': '0.0.0.0:1883',
+            'bind': '0.0.0.0:1888',     # change port 1883 to any port if there's an error
         },
-        'ws-mqtt': {
-            'bind': '127.0.0.1:8080',
-            'type': 'ws',
-            'max_connections': 10,
-        },
+        # 'ws-mqtt': {
+        #     'bind': '127.0.0.1:8080',
+        #     'type': 'ws',
+        #     'max_connections': 10,
+        # },
     },
     'sys_interval': 10,
-    'auth': {
-        'allow-anonymous': True,
-        'password-file': os.path.join(os.path.dirname(os.path.realpath(__file__)), "passwd"),
-        'plugins': [
-            'auth_file', 'auth_anonymous'
-        ]
-    },
+    # 'auth': {
+    #     'allow-anonymous': True,
+    #     'password-file': os.path.join(os.path.dirname(os.path.realpath(__file__)), "passwd"),
+    #     'plugins': [
+    #         'auth_file', 'auth_anonymous'
+    #     ]
+    # },
     'topic-check': {
         'enabled': False
     }
